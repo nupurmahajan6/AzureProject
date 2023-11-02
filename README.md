@@ -1,5 +1,77 @@
 # Deployment of JobEntry Website using IIS, Load balancer, recovery vault and Multi-factor Authentication.
 
+ Procedure
+Step1: Establish a Virtual Network (V-Net) that contains a subnet, and within that subnet(webserver), place a Virtual Machine (VM)
+
+Step2: Now create a two Virtual machine name VM1 and VM2
+in one subnet
+
+Step3: Now connect VM1 and VM2 after connecting VM add feature web server(IIS) install the IIS future
+
+Step4: Now deploy web site in VM1 And VM2
+
+Step5: Go to azure portal and check web site working or not, copy the VM1 IP and paste portal.
+
+Step6: Now a create load balancer and add VM’s in load balancer
+Load balancer: Load balancing refers to efficiently distributing incoming network traffic across a group of backend servers or resources. It is distributed equally internet traffic toward the available healthy server.
+
+Step 7: Now create recovery vault and add VM1 and VM2 for backup vm’s purpose.
+A Recovery Services vault is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines (VMs), workloads, servers, or workstations. You can use Recovery Services vaults to hold backup data for various Azure services such as IaaS VMs (Linux or Windows) and SQL Server in Azure VMs.
+Step 8: Now we have use multi-factor Authentication which is second level of security.
+
+Azure Services Used:
+1.	Azure VM
+2.	Load balancer
+3.	Recovery vault
+4.	Multi-factor Authentication.
+
+1.Azure VM:
+Azure virtual machines are one of several types of on-demand, scalable computing resources that Azure offers. Typically, you choose a virtual machine when you need more control over the computing environment than the other choices offer. This article gives you information about what you should consider before you create a virtual machine, how you create it, and how you manage it. An Azure virtual machine gives you the flexibility of virtualization without having to buy and maintain the physical hardware that runs it. However, you still need to maintain the virtual machine by performing tasks, such as configuring patching, and installing the software that runs on it.
+Applies to: ✔️ Linux VMs ✔️ Windows VMs ✔️ Flexible scale sets
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/eb5f1e5f-db77-468e-91ee-d9853018269e)
+
+IIS Service:
+IIS stands for Internet Information Services  is a flexible, general-purpose web server from Microsoft that runs on Windows systems to serve requested HTML pages or files.
+An IIS web server accepts requests from remote client computers and returns the appropriate response. This basic functionality allows web servers to share and deliver information across local area networks (LAN), such as corporate intranets, and wide area networks (WAN), such as the Internet.
+A web server can deliver information to users in several forms, such as static webpages coded in HTML; through file exchanges as downloads and uploads; and text documents, image files and more.
+
+2. Load balancer:
+Load balancing refers to efficiently distributing incoming network traffic across a group of backend servers or resources. It is distributed equally internet traffic toward the available healthy server.
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/17aa6fb1-77b2-4d10-afba-f5b54f392758)
+
+Azure Load Balancer operates at layer 4 of the Open Systems Interconnection (OSI) model. It's the single point of contact for clients. Load balancer distributes inbound flows that arrive at the load balancer's front end to backend pool instances. These flows are according to configured load-balancing rules and health probes. 
+A public load balancer can provide outbound connections for virtual machines (VMs) inside your virtual network. These connections are accomplished by translating their private IP addresses to public IP addresses. Public Load Balancers are used to load balance internet traffic to your VMs.
+An internal (or private) load balancer is used where private IPs are needed at the frontend only. Internal load balancers are used to load balance traffic inside a virtual network. A load balancer frontend can be accessed from an on-premises network in a hybrid scenario.
+
+3.Recovery vault
+A Recovery Services vault is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines (VMs), workloads, servers, or workstations. You can use Recovery Services vaults to hold backup data for various Azure services such as IaaS VMs (Linux or Windows) and SQL Server in Azure VMs. Recovery Services vaults support System Centre DPM, Windows Server, Azure Backup Server, and
+more. Recovery Services vaults make it easy to organize your backup data, while minimizing management overhead.
+Recovery Services vaults are based on the Azure Resource Manager model of Azure, which provides features such as:
+•	Enhanced capabilities to help secure backup data: With Recovery Services vaults, Azure Backup provides security capabilities to protect cloud backups. The security features ensure you can secure your backups, and safely recover data, even if production and backup servers are compromised.
+•	Central monitoring for your hybrid IT environment: With Recovery Services vaults, you can monitor not only your Azure IaaS VMs but also your on-premises assets from a central portal.
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/71f86ab2-9757-4a87-a935-c5a87cae0efb)
+
+•	Azure role-based access control (Azure RBAC): Azure RBAC provides fine-grained access management control in Azure. Azure provides various built-in roles, and Azure Backup has three built-in roles to manage recovery points. Recovery Services vaults are compatible with Azure RBAC, which restricts backup and restore access to the defined set of user roles.
+•	Soft Delete: With soft delete, even if a malicious actor deletes a backup (or backup data is accidentally deleted), the backup data is retained for 14 additional days, allowing the recovery of that backup item with no data loss. The additional 14 days of retention for backup data in the "soft delete" state don't incur any cost to you.
+•	Cross Region Restore: Cross Region Restore (CRR) allows you to restore Azure VMs in a secondary region, which is an Azure paired region. By enabling this feature at the vault level, you can restore the replicated data in the secondary region any time, when you choose. This enables you to restore the secondary region data for audit- compliance, and during outage scenarios, without waiting for Azure to declare a disaster (unlike the GRS settings of the vault).
+
+4.Multi-factor Authentication (MFA):
+MFA is a second level of security to the users.
+From Active Directory we can assign the authentication to user.
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/3039ed2f-02cb-4f2c-b0d2-6b8f7e3031c8)
+
+Suppose there is admin and multiple users.
+If any user forget the pasword then he/she will go to admin and then can reset the password.
+But if many users forget the password then all user have to go to admin which will increase burden on the admin.
+So to tackle this problem self service password reset is the solution
+By self service password reset the user can reset the password without ging to admin.
+
+
+
 IMPLEMENTATION
 
 Create Virtual Machine (VM1).
