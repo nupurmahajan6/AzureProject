@@ -99,8 +99,70 @@ Now Copying th IP address of Load Balancer we can see the webite sometimes we ca
 
 ![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/b59b69a7-3ede-4edd-bddd-c8d47a5699dc)
 
+Create a recovery vault for Virtual machine (VM1) backup purpose
 
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/578d26c5-4021-4e56-9036-e863def6d480)
 
+Select virtual machine backup option and after that click on add button and add two Virtual machine
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/20bf6518-cdea-4bcd-aba9-a1ed17fd53a4)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/7fb5b630-a277-4cd9-b925-e27530373e7f)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/23cad358-5278-4d1b-b788-3d04f58dfb38)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/c25d5eab-adf6-4507-9088-eb598f64c230)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/10f8b030-f436-421c-88c5-1edfb6f988e2)
+
+Then we backed up both the VMs using Azure Recovery Service Vault.
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/36bdce74-8471-4d3b-9ee6-f4f000ee5429)
+
+Multi Factor Authentication (MFA).
+Active Directory >> New User > Create
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/8e0e1e68-db80-47a7-af90-d7c357153cbe)
+
+Assign a role (Global Administrator)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/bcde0716-9f70-464a-a464-006153ab2c2e)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/749f798d-8316-4c36-8807-c5423d1c249e)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/fe03ffda-5840-4c57-8628-3c3a386cfde0)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/9c24c4d7-86fc-4d3d-b4ec-2a399395b72e)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/3000ff16-c6d6-4280-ae43-a40c2820339a)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/ae49ea4d-fb22-43fc-9db7-2d42cb57672c)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/58cddbf7-0e13-49ac-b620-6eed74fc5ad2)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/0d3467bd-fb45-47f7-be93-df524a0e2eb6)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/9c03e5db-ce6d-4fab-9ba7-d66c058c76b5)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/c5b85451-55aa-4de2-9abd-b897cc75b4d9)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/8b0a3aed-b720-45ac-b2db-edf6f63c96df)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/405e7089-d57c-41cb-9f0f-2add0e5fdd4e)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/4747c7db-ba0e-4969-be99-387eae42f78d)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/937250da-3af6-45c5-afa2-2f037b7f7525)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/e2c786df-ee05-4725-8748-6e8fe20f1710)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/195807a4-a3e3-4972-b01f-f1cc6d9d3a8d)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/93b5d93e-fd77-48bc-98a1-fd68fefff32b)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/7615fa08-272f-4dd4-bd95-edf8d06b03e0)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/eee73004-3326-47fc-901a-dbd098a6ba4b)
 
 
 
