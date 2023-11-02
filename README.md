@@ -26,14 +26,13 @@ Now add feature web server(IIS)deploy the Web site in VM1
 
 ![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/588c5c70-0411-4ba9-857a-36b6fe08e083)
 
+Now by using the IP we can access the website .
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/8d64b601-1aeb-41ae-8451-714e649b4884)
 
 Now by using the Domainname we can access the website .
 
-
-
-(ADD new SS of Website images change kiya he vo wala)
-
-
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/255f4d72-92ea-4b03-b094-bd959ced3aa5)
 
 Create Second Virtual Mahine (VM2).
 
@@ -61,12 +60,13 @@ Now add feature web server(IIS)deploy the Web site in VM2
 
 ![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/588c5c70-0411-4ba9-857a-36b6fe08e083)
 
+Now by using the IP we can access the website .
 
-
-
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/2e5ade31-03ce-42d9-8682-225a31fc6631)
 
 Now by using the Domainname we can access the website .
-(ADD new SS of Website images change kiya he vo wala)
+
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/5418bad8-6a49-4095-aa06-d31e12e26e74)
 
 
 
@@ -95,7 +95,9 @@ Now Create Load Balancer.
 
 Now Copying th IP address of Load Balancer we can see the webite sometimes we can see the website of VM1 and sometime of VM2 .
 
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/2561924d-7d2d-4c72-ac36-2d214775e7ed)
 
+![image](https://github.com/nupurmahajan6/AzureProject/assets/147131064/b59b69a7-3ede-4edd-bddd-c8d47a5699dc)
 
 
 
